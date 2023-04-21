@@ -1,0 +1,64 @@
+.wrapper {
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	display: flex;
+	padding: 50px;
+	min-height: 50vh;
+	text-align: center;
+	position: relative;
+
+	@media (min-width: 1024px) {
+		padding: 20px;
+		height: 100vh;
+	}
+}
+
+.container {
+}
+
+.citation {
+	position: relative;
+	padding: 10px;
+	bottom: 0;
+	right: 0;
+
+	@media (min-width: 1024px) {
+		position: absolute;
+		padding: 40px;
+	}
+}
+
+.icon {
+	max-width: 150px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.cite {
+	a {
+		margin-left: 5px;
+		text-decoration: none;
+		color: #fffffa;
+		transition: color 0.4s ease;
+	}
+
+	a:active,
+	a:focus,
+	a:hover {
+		color: #14213d;
+	}
+}
+
+.value {
+	display: inline-block;
+}
+
+.unit {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.intro {
+	font-weight: 400;
+}

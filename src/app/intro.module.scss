@@ -1,0 +1,26 @@
+.intro {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 50px;
+	height: 100vh;
+	text-align: center;
+	color: #0f0e11;
+
+	@media (min-width: 1024px) {
+		padding: 20px;
+		height: 100vh;
+	}
+}
+
+.credits {
+	text-align: left;
+	padding: 20px;
+	z-index: 100;
+	left: 0;
+	top: 0;
+
+	position: absolute;
+	color: #0f0e11;
+}
